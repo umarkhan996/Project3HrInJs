@@ -1,0 +1,27 @@
+<html>
+
+<body>
+
+    <form onsubmit="saveToLocalStorage(event)">
+        <label> Choose expenseamount</label>
+        <input id='username' type="number" name="username" required/>
+        <label> Choose description</label>
+        <input id='email' type="text" name="emailId" required/>
+        <label>Choose category</label>
+        <select id='category'>
+                <option value="Category">Choose Category</option>
+                <option value="Movie">Movie</option>
+                <option value="Lunch">Lunch</option>
+                <option value="Travel">Travel</option>
+            </select>
+        <button> Add Item </button>
+    </form>
+    <ul id='listOfUsers'></ul>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.26.1/axios.min.js"></script> -->
+
+    <script src="project3Hr.js">
+    </script>
+
+</body>
+
+</html>
